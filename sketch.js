@@ -16,9 +16,9 @@ function draw() {
   if (eggFalling) {
     eggY += 2;
     if (eggY >= height - 20) {
-      // Check karega ground touch hua ki nhi
+      
       eggFalling = false;
-      omeletVisible = true; // omelet bana dega
+      omeletVisible = true; 
     }
   }
 
